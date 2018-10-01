@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Configuración Galería</string>
+    <string name="summary_backup_and_sync">Activar esta casilla si deseas que la galería si deseas que esta realice un respaldo y este sincronizada con tu cuenta de Google Drive</string>
+    <string name="title_backup_and_sync">Respaldo y sincronización</string>
+    <string name="category_backup_and_sync">Respaldo y sincronización</string>
+    <string name="title_email">Correo electrónico</string>
+    <string name="category_location">Localización</string>
+    <string name="title_remove_geolocalization">Eliminar Geolocalización</string>
+    <string name="summary_remove_geolocalization">Activar esta casilla si deseas que las fotos de la galería almacenen la localización donde fueron tomadas</string>
+    <string name="category_notifications">Notificaciones</string>
+    <string name="title_notifications">Notificaciones</string>
+    <string name="title_tone_notifications">Tono de notificación</string>
+    <string name="summary_tone_notifications">Seleccione el tono de notificiaciones</string>
+    <string name="title_vibrate">Vibrar</string>
+    <string name="title_display_size">Tamaño de los cuadros de la galería</string>
+    <string name="summary_display_size">Seleccione el tamaño en como se van a visualizar las imágenes y vídeos</string>
+    <string name="title_order">Ordenamiento</string>
+    <string name="summary_order">Seleccione el atributo por el que desea ordenar las imágenes y vídeos de la galería.</string>
+    <string name="summary_confirm_delete">Mostrar un diálogo cuando se este eliminando imágenes o vídeos</string>
+    <string name="title_confirm_delete">Confirmación para eliminar</string>
+
+
+    <string-array name="options_display_size">
+        <item>Pequeño</item>
+        <item>Mediano</item>
+        <item>Grande</item>
+    </string-array>
+    <string-array name="values_display_size">
+        <item>small</item>
+        <item>medium</item>
+        <item>large</item>
+    </string-array>
+
+    <string-array name="options_order">
+        <item>Nombre</item>
+        <item>Fecha</item>
+    </string-array>
+    <string-array name="values_order">
+        <item>name</item>
+        <item>date</item>
+    </string-array>
+
+</resources>

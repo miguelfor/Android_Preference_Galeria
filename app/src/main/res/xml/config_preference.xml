@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="small"
+        android:entries="@array/options_display_size"
+        android:entryValues="@array/values_display_size"
+        android:key="display_size"
+        android:summary="@string/summary_display_size"
+        android:title="@string/title_display_size" />
+
+    <ListPreference
+        android:defaultValue="date"
+        android:entries="@array/options_order"
+        android:entryValues="@array/values_order"
+        android:key="sort_order"
+        android:summary="@string/summary_order"
+        android:title="@string/title_order" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="confirm_delete"
+        android:summary="@string/summary_confirm_delete"
+        android:title="@string/title_confirm_delete" />
+
+    <PreferenceCategory android:title="@string/category_backup_and_sync">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="backup_and_sync"
+            android:summary="@string/summary_backup_and_sync"
+            android:title="@string/title_backup_and_sync" />
+
+        <EditTextPreference
+            android:key="email"
+            android:title="@string/title_email" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/category_location">
+
+        <SwitchPreference
+            android:key="remove_geolocalization"
+            android:summary="@string/summary_remove_geolocalization"
+            android:title="@string/title_remove_geolocalization" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/category_notifications">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="notifications"
+            android:title="@string/title_notifications" />
+
+        <RingtonePreference
+            android:dependency="notifications"
+            android:key="tone"
+            android:summary="@string/summary_tone_notifications"
+            android:title="@string/title_tone_notifications" />
+
+        <SwitchPreference
+            android:dependency="notifications"
+            android:key="vibrate"
+            android:title="@string/title_vibrate" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
